@@ -1,0 +1,828 @@
+html{
+    background: rgb(2,0,36);
+background: linear-gradient(40deg, rgba(2,0,36,1) 100%, rgba(4,4,4,1) 51%, rgba(49,72,78,1) 98%, rgba(55,82,88,1) 100%);
+
+}
+/* NAVBAR*/
+#video{
+    position: absolute;
+    margin-left: 100px;
+    height: 800px;
+    width: 1350px;
+    top:-200px;
+}
+.hotel{
+    margin-left: 250px;
+    margin-top: 80px;
+    display:inline-block;
+    position: absolute;
+    border-bottom: 1px;
+    padding-bottom: 7px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 2;
+    cursor: pointer;
+}
+.hotel:hover{
+    border-bottom: 0px solid gold;
+    border-bottom-width: thin;
+    text-decoration: underline;
+    text-decoration: gold;
+    cursor: pointer;
+}
+.log{
+    position: absolute;
+    z-index: 1;
+}
+.img1{
+    width: 250px;
+    height: 250px;
+    margin-left: 550px;
+    cursor: pointer;
+}
+.rooms{
+    margin-left: 450px;
+    margin-top: 80px;
+    display:inline-block;
+    position: absolute;
+    border-bottom: 2px;
+    padding-bottom: 7px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    z-index: 2;
+}
+.rooms:hover{
+    border-bottom: 0px solid gold;
+    border-bottom-width: thin;
+    text-decoration: underline;
+    text-decoration: gold;
+}
+.dining{
+    margin-left: 850px;
+    margin-top: 80px;
+    display:inline-block;
+    position:absolute;
+    border-bottom: 1px;
+    padding-bottom: 7px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    z-index: 1;
+}
+.dining:hover{
+    border-bottom: 0px solid gold;
+    border-bottom-width:thin;
+    text-decoration: underline;
+    text-decoration: gold;
+}
+.signing{
+    margin-left: 1050px;
+    margin-top: 80px;
+    display:inline-block;
+    position:absolute;
+    border-bottom: 1px;
+    padding-bottom: 7px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    z-index: 1;
+}
+.signing:hover{
+    border-bottom:solid  gold;
+    border-bottom-width: thin;
+    text-decoration: underline;
+    text-decoration: gold;
+}
+
+/*Home*/
+.choose{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 600px;
+    height: 80px;
+    width: 200px;
+    background-color: grey;
+    text-align: center;
+    text-justify: distribute;
+    display: inline-block;
+}
+.choose1{
+    color: white;
+    left: 5px;
+    position: relative;
+    top:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.choose2{
+    position: relative;
+    display: inline-block;
+    margin-top: 620px;
+    margin-left: 500px;
+    color: white;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.choose3{
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: white;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.choose4{
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: white;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.choose5{
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 100px;
+    color: white;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.train{
+    margin-left: 170px;
+    margin-top: 80px;
+    height: 80px;
+    width: 200px;
+    background-color: grey;
+    display: inline-block;
+    position: relative;
+}
+.train1{
+    position: relative;
+    color: white;
+    left: 5px;
+    position: relative;
+    top:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.train2{
+    position: relative;
+    display: inline-block;
+    top: 25px;
+    margin-left: 100px;
+    color: white;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.train3{
+    position: relative;
+    display: inline-block;
+    top: 25px;
+    margin-left: 100px;
+    color: white;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger
+}
+.train4{
+    position: relative;
+    display: inline-block;
+    top: 25px;
+    margin-left: 100px;
+    color: white;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger
+}
+.train5{
+    position: relative;
+    display: inline-block;
+    top: 25px;
+    margin-left: 100px;
+    color: white;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger
+}
+.getaway{
+    position: absolute;
+    background-color: black;
+    width: 1400px;
+    height: 350px;
+    top:1450px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.getaway1{
+    position: relative;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    top: 50px;
+    left: 40px;
+}
+.image1{
+    margin-top: 70px;
+    margin-left: 135px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+}
+.image2{
+    margin-top: 70px;
+    margin-left: 505px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+}
+.image3{
+    margin-top: 70px;
+    margin-left: 885px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+}
+.text1{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 280px;
+    margin-left: 270px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+.text2{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 280px;
+    margin-left: 650px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+.text3{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 280px;
+    margin-left: 1030px;
+    display: block;
+    font-size: larger;
+    color: white;   
+    cursor: pointer;
+}
+.dinpal{
+    position: absolute;
+    background-color: black;
+    width: 1400px;
+    height: 350px;
+    top: 2350px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.dinpal1{
+    position: relative;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    top: 50px;
+    left: 40px;
+}
+.im1{
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+}
+.im2{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+}
+.im3{
+    margin-top: 100px;
+    margin-left: 780px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+}
+.t1{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 280px;
+    margin-left: 270px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer
+}
+.t2{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 280px;
+    margin-left: 650px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+.t3{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 280px;
+    margin-left: 1030px;
+    display: block;
+    font-size: larger;
+    color: white;   
+    cursor: pointer;
+}
+.footer{
+    position: absolute;
+    background-color: black;
+    width:100%;
+    height: 350px;
+    top: 3350px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.foot1{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer;   
+}
+.foot2{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer; 
+}
+.foot3{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 150px;
+    margin-left: 30px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer; 
+}
+.foot4{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 200px;
+    margin-left: 30px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer; 
+}
+.foot5{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 300px;
+    margin-left: 30px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer; 
+}
+.foot6{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 700px;
+    display: block;
+    font-size:x-large;
+    color: white;
+    cursor: pointer; 
+}
+.foot7{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    margin-left: 700px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer; 
+}
+.foot8{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 130px;
+    margin-left: 700px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer; 
+}
+.foot9{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 180px;
+    margin-left: 700px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer; 
+}
+.foot10{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 230px;
+    margin-left: 700px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer; 
+}
+.foot11{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 280px;
+    margin-left: 700px;
+    display: block;
+    font-size: larger;
+    color: white;
+    cursor: pointer; 
+}
+.foot12{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 1300px;
+    display: block;
+    font-size:x-large;
+    color: white;
+    cursor: pointer
+}
+.fb{
+    color: white;
+    margin-top: 80px;
+    margin-left: 1330px;
+    cursor: pointer;
+}
+.ig{
+    color: white;
+    margin-top: 50px;
+    margin-left: 1330px;
+    cursor: pointer;
+}
+.yt{
+    color: white;
+    margin-top: 50px;
+    margin-left: 1330px;
+    cursor: pointer;
+}
+/*Dining*/
+.back1{
+    width:100%;
+    z-index: 0;
+}
+.likh{
+    color: white;
+    position: absolute;
+    margin-top: 650px;
+    margin-left: -1100px;
+    font-family: "raleway-bold";
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 3;
+}
+.likhde{
+    color:  white;
+    position: absolute;
+    margin-top: 850px;
+    margin-left: -1000px;
+    font-family: "raleway-regular";
+    font-size: 18px;
+    z-index: 3;
+}
+.bookatable{
+    color: Red;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    margin-top: 200px;
+    margin-left: 600px;
+    cursor: pointer;
+}
+/*ROOMS*/
+.roomphoto1{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    z-index: 0;
+}
+.roomphoto2{
+    width:100%;
+    height: 700px;
+    object-fit: cover;
+    z-index: 0;
+}
+.roomphoto3{
+    width:100%;
+    height: 700px;
+    object-fit: cover;
+    z-index: 0;
+}
+.roomwrite1{
+    font-size:xx-large;
+    font-family: 'Comic Sans MS';
+    color:gold;
+    margin-left: 580px;
+    margin-top:-300px;
+    position: absolute;
+    z-index: 1;
+}
+.roomwrite2{
+    font-size:xx-large;
+    font-family: 'Comic Sans MS';
+    color:gold;
+    margin-left: 580px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -320px;
+}
+.roomwrite3{
+    font-size:xx-large;
+    font-family: 'Comic Sans MS';
+    color:gold;
+    margin-left: 580px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -300px;
+}
+.roomphoto4{
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.roomphoto5{
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.roomphoto6{
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.roomphoto7{
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.roomphoto8{
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.roomphoto9{
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.roomtype1{
+    color: gold;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -1200px;
+    margin-top: 20px;
+}
+.roomtype2{
+    color: gold;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -700px;
+    margin-top: 20px;
+}
+.roomtype3{
+    color: gold;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -300px;
+    margin-top: 20px;
+}
+.roomtype4{
+    color: gold;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -1260px;
+    margin-top: 470px;
+}
+.roomtype5{
+    color: gold;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -720px;
+    margin-top: 470px;
+}
+.roomtype6{
+    color: gold;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -210px;
+    margin-top: 470px;
+}
+.pricetype1{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -1300px;
+    margin-top: 80px;
+}
+.pricetype2{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -800px;
+    margin-top: 80px;
+}
+.pricetype3{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -300px;
+    margin-top: 80px;
+}
+.pricetype4{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -1300px;
+    margin-top: 540px;
+}
+.pricetype5{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -800px;
+    margin-top: 540px;
+}
+.pricetype6{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -300px;
+    margin-top: 540px;
+}
+.tourtype1{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -1150px;
+    margin-top: 80px;
+}
+.tourtype2{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -650px;
+    margin-top: 80px;
+}
+.tourtype3{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 80px;
+}
+.tourtype4{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -1150px;
+    margin-top: 540px;
+}
+.tourtype5{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -650px;
+    margin-top: 540px;
+}
+.tourtype6{
+    color: green;
+    font-size:x-large;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    margin-left: -150px;
+    margin-top:540px;
+}
+/*Signin Page*/
+.signbox{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    margin-top: 300px;
+    margin-left: 400px;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+}
+.signtext1{
+    position:relative;
+    color:white;
+    top: 350px;
+    margin-left: 620px;
+    font-size: x-large;
+    font-family: 'Comic Sans MS';
+}
+.signtext2{
+    position:relative;
+    color:white;
+    margin-left: -250px;
+    top:450px;
+    font-size: x-large;
+    font-family: 'Comic Sans MS';
+}
+.signtext3{
+    position:relative;
+    color:white;
+    margin-left: -100px;
+    top:600px;
+    font-size: x-large;
+    font-family: 'Comic Sans MS';
+}
+.signtext4{
+    position:relative;
+    color:white;
+    margin-left: 50px;
+    top:800px;
+    font-size: x-large;
+    font-family: 'Comic Sans MS';
+    color: red;
+}
+.label1{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: -300px;
+    width: 500px;
+    height: 50px;
+    font-size: x-large;
+}
+.label2{
+    position: absolute;
+    margin-top: 650px;
+    margin-left: -300px;
+    width: 500px;
+    height: 50px;
+    font-size: x-large;
+}
